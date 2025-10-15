@@ -381,7 +381,6 @@ else:
 
 **"El mayor descubrimiento de nuestra generación será que los seres humanos pueden alterar sus vidas alterando sus actitudes mentales"**  
 *— William James, prefigurando la revolución consciente*
-
 ---
 
 **mechbot.2x · mechmind-dwv · 2024-2025**  
