@@ -1,0 +1,36 @@
+# 🌞 HelioBio-Social - Frecuencias Base
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+aiofiles==23.2.1
+python-dotenv==1.0.0
+
+# Análisis de Datos Cósmicos
+pandas==2.1.3
+numpy==1.25.2
+scipy==1.11.3
+scikit-learn==1.3.1
+
+# Visualización de Patrones
+matplotlib==3.8.0
+seaborn==0.13.0
+plotly==5.17.0
+
+# Procesamiento de Lenguaje Consciente
+textblob==0.17.1
+nltk==3.8.1
+transformers==4.35.0
+torch==2.1.0
+
+# APIs Dimensionales
+facebook-sdk==4.0.0
+google-cloud-aiplatform==1.38.0
+requests==2.31.0
+aiohttp==3.9.1
+
+# Utilidades Cósmicas
+pytest==7.4.3
+pytest-asyncio==0.21.1
+black==23.11.0
+flake8==6.1.0
+python-dateutil==2.8.2
