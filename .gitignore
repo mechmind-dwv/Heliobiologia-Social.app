@@ -196,3 +196,27 @@ consciousness_backup/
 !README.md
 !LICENSE
 !.gitignore
+app/config/settings.py
+data/models/       ← bloquea TODA la carpeta
+*.pkl              ← bloquea TODOS los .pkl
+*.tar.gz           ← bloquea TODOS los tar.gz
+*.zip
+heliobio_backup_*
+
+# 🤖 MODELOS ENTRENADOS (regenerables)
+data/models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# 📦 BACKUPS
+heliobio_backup_*
+*.tar.gz
+*.zip
+
+# 🚫 SWAP / TEMPORALES DE EDITOR
+*.swp
+*.swo
