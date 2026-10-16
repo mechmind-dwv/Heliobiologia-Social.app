@@ -7,6 +7,7 @@ env/
 .env
 .env.*
 *.env
+!.env.example
 conciencia_cosmica/
 (conciencia_cosmica)/
 cosmos_venv/
@@ -26,6 +27,7 @@ config.yml
 *.config
 *.cfg
 !setup.cfg
+!config.example.json
 settings.local.py
 consciousness_settings.local.py
 secrets.json
@@ -41,6 +43,8 @@ service-account*.json
 .env.development
 *.token
 *token*.txt
+tokens*.json
+*_token.json
 NASA_COSMIC_KEY*
 FACEBOOK_CONSCIOUSNESS_TOKEN*
 google_ai_credentials*
@@ -96,6 +100,19 @@ data/social_cache/
 *.csv
 !requirements.csv
 
+# 🧠 BACKUPS CÓSMICOS
+heliobio_backup_*/
+heliobio_backup_*.tar.gz
+*backup*.tar.gz
+*backup*.zip
+*.tar.gz
+*.tgz
+
+# 📦 CACHÉ DE PIP / REQUESTS
+requests/
+.pip/
+pip-wheel-metadata/
+
 # 🗂️ IDE Y EDITORES
 .vscode/
 .idea/
@@ -136,7 +153,6 @@ bower_components/
 _site/
 site/
 public/_build/
-dist/
 
 # 🐳 DOCKER Y CONTENEDORES
 docker-compose.override.yml
@@ -163,7 +179,6 @@ temp/
 *.tmp
 *.bak
 *.old
-*~
 
 # 🧠 BACKUPS DE CONCIENCIA
 *.backup
@@ -177,6 +192,7 @@ consciousness_backup/
 !config.example.json
 !consciousness_settings.example.py
 !requirements.txt
+!requirements*.txt
 !README.md
 !LICENSE
 !.gitignore
