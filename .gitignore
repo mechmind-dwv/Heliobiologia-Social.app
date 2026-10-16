@@ -220,3 +220,21 @@ heliobio_backup_*
 # 🚫 SWAP / TEMPORALES DE EDITOR
 *.swp
 *.swo
+
+# 🤖 MODELOS ENTRENADOS (regenerables)
+data/models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# 📦 BACKUPS
+heliobio_backup_*
+*.tar.gz
+*.zip
+
+# 🚫 SWAP
+*.swp
+*.swo
